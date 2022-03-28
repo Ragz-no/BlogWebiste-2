@@ -45,6 +45,11 @@ app.post("/compose", function(req, res){
 });
 
 
+app.get("/posts/:topic", function(req, res){
+  console.log(req.params.topic);
+});
+
+
 
 
 
